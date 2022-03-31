@@ -3,7 +3,7 @@ CREATE TABLE region (
     region_name varchar2(20),
 );
 
-CREATE TABLE team1 (
+CREATE TABLE team (
     team_name varchar2(30) not null PRIMARY KEY,
     team_wins integer PRIMARY KEY,
     team_losses integer PRIMARY KEY,
